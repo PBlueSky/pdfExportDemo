@@ -36,6 +36,7 @@ public class Main {
         }
     }
 
+
     private static String parseThymeleafTemplate() {
         ClassLoaderTemplateResolver templateResolver = new ClassLoaderTemplateResolver();
         templateResolver.setSuffix(".html");
