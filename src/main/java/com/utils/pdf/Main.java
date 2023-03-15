@@ -49,7 +49,7 @@ public class Main {
 
         ArrayList<User> userList = new ArrayList<User>();
         for (int i = 0; i < 10; i++) {
-            userList.add(new User(i,"张三"+i,"1560545646","江苏大学"));
+            userList.add(new User(i,"张三"+i,"1560545646","银河系地球"));
         }
         context.setVariable("to", "Baeldung");
         context.setVariable("userList", userList);
